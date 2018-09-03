@@ -7,6 +7,6 @@ public class HalloRocDev {
 
     public static void main(String[] args) {
         System.out.println("Hallo klas 8A!");
-        System.out.println("2de lijn of code FTW.");
+        System.out.println("2de lijn of code FTW?");
     }
 }
