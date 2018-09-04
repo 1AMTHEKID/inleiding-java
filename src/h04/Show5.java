@@ -15,7 +15,7 @@ public class Show5 extends Applet {
         i.setColor(Color.black);
         i.fillPolygon(xPoints, yPoints, numPoints);
         i. setColor(Color.black);
-        i. drawRect(20,20,250,250);
-        i. fillRect(20,20,250,250);
+        i. drawRect(30,230,200,200);
+
     }
 }
