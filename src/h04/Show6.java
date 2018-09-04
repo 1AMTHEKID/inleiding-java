@@ -18,7 +18,5 @@ public class Show6 extends Applet {
         g.setColor(Color.black);
         g.drawRect(25,30,10,320);
         g.fillRect(25,30,10,320);
-
     }
-
 }
