@@ -8,21 +8,38 @@ public class Opdracht4WIP extends Applet{
     public void paint(Graphics g){
         // Zonder details V
         g.setColor(Color.black);
-        g.drawRect(30,10,1,300);
+        g.drawRect(80,10,1,300);
         g.setColor(Color.black);
-        g.drawRect(30,310,300,1);
+        g.drawRect(80,310,300,1);
         g.setColor(Color.green);
-        g.drawRect(35,190,60,119);
-        g.fillRect(35,190,60,119);
+        g.drawRect(85,190,60,119);
+        g.fillRect(85,190,60,119);
         g.setColor(Color.yellow);
-        g.drawRect(105,9,60,300);
-        g.fillRect(105,9,60,300);
+        g.drawRect(155,9,60,300);
+        g.fillRect(155,9,60,300);
         g.setColor(Color.blue);
-        g.drawRect(175,69,60,240);
-        g.fillRect(175,69,60,240);
+        g.drawRect(225,69,60,240);
+        g.fillRect(225,69,60,240);
         // Met details V
-
-
-
+        g.setColor(Color.black);
+        g.drawString("100KG",10,19);
+        g.setColor(Color.black);
+        g.drawString("80KG",10,79);
+        g.setColor(Color.black);
+        g.drawString("60KG",10,139);
+        g.setColor(Color.black);
+        g.drawString("40KG",10,199);
+        g.setColor(Color.black);
+        g.drawString("20KG",10,259);
+        g.setColor(Color.black);
+        g.drawString("0KG",10,319);
+        // Namen van personen V
+        g.setColor(Color.black);
+        g.drawString("Valerie",95,330);
+        g.setColor(Color.black);
+        g.drawString("Jeroen",165,330);
+        g.setColor(Color.black);
+        g.drawString("Hans",239,330);
+        // Finish, ugh.
     }
 }
