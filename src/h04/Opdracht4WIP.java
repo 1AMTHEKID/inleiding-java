@@ -2,10 +2,11 @@ package h04;
 import java.awt.*;
 import java.applet.*;
 
-public class Show7 extends Applet{
+public class Opdracht4WIP extends Applet{
     public void init(){setBackground(Color.white);}
 
     public void paint(Graphics g){
+        // Zonder details V
         g.setColor(Color.black);
         g.drawRect(30,10,1,300);
         g.setColor(Color.black);
@@ -19,6 +20,7 @@ public class Show7 extends Applet{
         g.setColor(Color.blue);
         g.drawRect(175,69,60,240);
         g.fillRect(175,69,60,240);
+        // Met details V
 
 
 

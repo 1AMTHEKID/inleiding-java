@@ -3,7 +3,7 @@ package h02;
 import java.awt.*;
 import java.applet.*;
 
-public class Show3 extends Applet{
+public class Opdracht2 extends Applet{
     public void init () {setBackground (Color.white); }
 
     public void paint (Graphics g) {
