@@ -8,8 +8,8 @@ public class Opdracht6WIP extends Applet{
     public void paint(Graphics g){
     // Stoplicht V
     g.setColor(Color.black);
-    g.drawRect(60,40,124,360);
-    g.fillRect(60,40,124,360);
+    g.drawRect(60,40,124,330);
+    g.fillRect(60,40,124,330);
     g.setColor(Color.black);
     g.drawRect(110,280,25,320);
     g.fillRect(110,280,25,320);
