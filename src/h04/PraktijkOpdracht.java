@@ -41,6 +41,10 @@ public class PraktijkOpdracht extends Applet {
         g.setColor(Color.black);
         g.drawString("Taartpunt met ovaal eromheen", 400,165);
         // ^ Taartpunt met ovaal eromheen
-
+        g.setColor(Color.black);
+        g.drawArc(435,185,100,100,360,360);
+        g.setColor(Color.black);
+        g.drawString("Cirkel",470,300);
+        // ^ Cirkel, aaand finish
     }
 }
