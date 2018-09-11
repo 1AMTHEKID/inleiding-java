@@ -2,7 +2,7 @@ package h05;
 import java.awt.*;
 import java.applet.Applet;
 
-public class Opdracht2WIP extends Applet {
+public class Opdracht2 extends Applet {
 
     Color yellow;
     Color black;
@@ -12,6 +12,10 @@ public class Opdracht2WIP extends Applet {
     int XAsLength;
     int yValerie;
     int hValerie;
+    int yJeroen;
+    int hJeroen;
+    int yHans;
+    int hHans;
 
     public void init() {
         yellow = Color.yellow;
@@ -19,9 +23,13 @@ public class Opdracht2WIP extends Applet {
         green = Color.green;
         blue = Color.blue;
         YAsHeight = 300;
-        XAsLength = 250;
+        XAsLength = 205;
         hValerie = 120;
         yValerie = YAsHeight - hValerie + 9;
+        hJeroen = 300;
+        yJeroen = YAsHeight - hJeroen + 9;
+        hHans = 240;
+        yHans = YAsHeight - hHans + 9;
     }
 
 
@@ -37,11 +45,11 @@ public class Opdracht2WIP extends Applet {
         g.drawRect(85, yValerie, 60, hValerie);
         g.fillRect(85, yValerie, 60, hValerie);
         g.setColor(yellow);
-        g.drawRect(155, 9, 60, 300);
-        g.fillRect(155, 9, 60, 300);
+        g.drawRect(155, yJeroen, 60, hJeroen);
+        g.fillRect(155, yJeroen, 60, hJeroen);
         g.setColor(blue);
-        g.drawRect(225, 69, 60, 240);
-        g.fillRect(225, 69, 60, 240);
+        g.drawRect(225, yHans, 60, hHans);
+        g.fillRect(225, yHans, 60, hHans);
         // Met details V
         g.setColor(black);
         g.drawString("100KG", 10, 19);
