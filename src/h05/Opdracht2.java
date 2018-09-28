@@ -24,11 +24,11 @@ public class Opdracht2 extends Applet {
         blue = Color.blue;
         YAsHeight = 300;
         XAsLength = 205;
-        hValerie = 120;
+        hValerie = 30;
         yValerie = YAsHeight - hValerie + 9;
-        hJeroen = 300;
+        hJeroen = 200;
         yJeroen = YAsHeight - hJeroen + 9;
-        hHans = 240;
+        hHans = 120;
         yHans = YAsHeight - hHans + 9;
     }
 
