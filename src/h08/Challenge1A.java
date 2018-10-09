@@ -1,28 +1,26 @@
-package H8;
+package h08;
 
 import java.awt.*;
 import java.applet.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.TextField;
+import java.awt.Button;
 
 public class Challenge1A extends Applet {
 
-    public TextField naaminvoer1;
+    public TextField insertname1;
 
     Button button1;
     Button button2;
     Button button3;
 
-    float result1;
-    float result2;
-    float result3;
+    int result1;
+    int result2;
+    int result3;
 
     public void init(){
         setSize(600, 800);
-
-        naaminvoer1 = new TextField("",10);
-        naaminvoer1.addActionListener(new button1Listener());
-        add(naaminvoer1);
 
         button1 = new Button("Valerie");
         button1Listener B1 = new button1Listener();
@@ -43,9 +41,9 @@ public class Challenge1A extends Applet {
     }
     public void paint(Graphics g){
 
-        float Weight1 = result1;
-        float Weight2 = result2;
-        float Weight3 = result3;
+        int Weight1 = result1;
+        int Weight2 = result2;
+        int Weight3 = result3;
 
 
         g.setColor(Color.BLACK);
@@ -79,7 +77,7 @@ public class Challenge1A extends Applet {
     class button1Listener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            float Weight1 = Float.parseFloat(naaminvoer1.getText());
+            int Weight1 = Integer.parseInt(insertname1.getText());
             result1 = Weight1;
             repaint();
         }
@@ -88,7 +86,7 @@ public class Challenge1A extends Applet {
     class button2Listener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            float Weight2 = Float.parseFloat(naaminvoer1.getText());
+            int Weight2 = Integer.parseInt(insertname1.getText());
             result2 = Weight2;
             repaint();
         }
@@ -97,7 +95,7 @@ public class Challenge1A extends Applet {
     class button3Listener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            float Weight3 = Float.parseFloat(naaminvoer1.getText());
+            int Weight3 = Integer.parseInt(insertname1.getText());
             result3 = Weight3;
             repaint();
         }

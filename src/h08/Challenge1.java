@@ -52,7 +52,7 @@ public class Challenge1 extends Applet{
         YAsHeight = 399;
         XAsLength = 310;
 
-        hValerie = 0;
+        hValerie = 120;
         yValerie = YAsHeight - hValerie;
         hJeroen = 0;
         yJeroen = YAsHeight - hJeroen;
@@ -63,19 +63,19 @@ public class Challenge1 extends Applet{
 
 
         textValerie = new TextField("0",10);
-        textValerie.addActionListener(new showButtonListener());
+        textValerie.addActionListener(new show1ButtonListener());
         ValerieLabel = new Label("Valerie ");
 
         textJeroen = new TextField("0",10);
-        textJeroen.addActionListener(new showButtonListener());
+        textJeroen.addActionListener(new show1ButtonListener());
         JeroenLabel = new Label("Jeroen ");
 
         textHans = new TextField("0",10);
-        textHans.addActionListener(new showButtonListener());
+        textHans.addActionListener(new show1ButtonListener());
         HansLabel = new Label("Hans ");
 
         showButton = new Button("Toon");
-        showButton.addActionListener(new showButtonListener());
+        showButton.addActionListener(new show1ButtonListener());
 
         add(ValerieLabel);
         add(textValerie);
@@ -120,7 +120,7 @@ public class Challenge1 extends Applet{
 
     }
 
-    class showButtonListener implements ActionListener{
+    class show1ButtonListener implements ActionListener{
         public void actionPerformed(ActionEvent e){
             textV = textValerie.getText();
             tV = Integer.parseInt(textV);

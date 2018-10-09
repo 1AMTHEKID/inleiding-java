@@ -1,5 +1,5 @@
-package h08;
-/*/
+/*/package h08;
+
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
